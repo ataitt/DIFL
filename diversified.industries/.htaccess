@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^diversified\.industries$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.diversified\.industries$
+RewriteRule ^/?$ "http\:\/\/difl\.us" [R=301,L]
+

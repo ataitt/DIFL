@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^makessmartdecisions\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.makessmartdecisions\.com$
+RewriteRule ^/?$ "http\:\/\/difl\.us" [R=301,L]
+

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact us | Diversified Industries C&IS</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/style2.css" type="text/css" media="all">
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+  <script type="text/javascript" src="js/cufon-yui.js"></script>
+  <script type="text/javascript" src="js/Humanst521_BT_400.font.js"></script>
+  <script type="text/javascript" src="js/Humanst521_Lt_BT_400.font.js"></script>
+  <!--[if gte IE 9]>
+    <script type="text/javascript">
+        Cufon.set('engine', 'canvas');
+    </script>
+<![endif]-->
+  <script type="text/javascript" src="js/cufon-replace.js"></script>
+	<script type="text/javascript" src="js/roundabout.js"></script>
+  <script type="text/javascript" src="js/roundabout_shapes.js"></script>
+  <script type="text/javascript" src="js/gallery_init.js"></script>
+  <!--[if lt IE 7]>
+  	<link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="all">
+  <![endif]-->
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+    <script type="text/javascript" src="js/IE9.js"></script>
+  <![endif]-->
+  <meta http-equiv="X-UA-Compatible" content="IE=8" />
+<style>
+   #map-canvas {
+    width: 500px;
+    height: 400px;
+  }
+	  </style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script>
+var di = new google.maps.LatLng(28.589675, -81.198399);
+var marker;
+var map;
+
+function initialize() {
+  var mapOptions = {
+    zoom: 14,
+    center: di
+  };
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+                                mapOptions);
+
+  var image = new google.maps.MarkerImage(
+        'images/diicon.png',
+         null,
+         // The origin for my image is 0,0.
+         new google.maps.Point(0, 0),
+         // The center of the image is 50,50 (my image is a circle with 100,100)
+         new google.maps.Point(24, 82)
+     );
+  var myLatLng = di;
+  var beachMarker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      icon: image
+  });
+ google.maps.event.addListener(marker, 'click', toggleBounce);
+  }
+
+function toggleBounce() {
+
+  if (marker.getAnimation() != null) {
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+  }
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+  
+  </head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <!-- header -->
+  <header>
+    <div class="container">
+    	<h1><a href="index.html">Diversified Industries C &amp; IS Inc.</a></h1>
+      <nav>
+        <ul>
+        	<li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="smart.html">SMART</a></li>
+          <li><a href="gallery.html">Events</a></li>
+          <li><a href="contacts.html" class="current">Contact</a></li>
+          <!--<li><a href="sitemap.html">Sitemap</a></li>
+		  <li><a href="test.html">Test</a></li>-->
+        </ul>
+      </nav>
+    </div>
+	</header>
+  <!-- #gallery --
+  <section id="gallery">
+  	<div class="container">
+    	<ul id="myRoundabout">
+      	<li><img src="images/slide3.jpg" alt=""></li>
+        <li><img src="images/slide2.jpg" alt=""></li>
+        <li><img src="images/slide5.jpg" alt=""></li>
+        <li><img src="images/slide1.jpg" alt=""></li>
+        <li><img src="images/slide4.jpg" alt=""></li>
+      </ul>
+  	</div>
+  </section>
+  <!-- /#gallery -->
+  <div class="main-box">
+    <div class="container">
+      <div class="inside">
+        <div class="wrapper">
+        	<!-- aside -->
+          <aside>
+		  <h2>Contact <span>Info</span></h2>
+            <!-- .contacts -->
+            <ul class="contacts">
+				<li><strong>Address:</strong>3259 Progress Drive</li>
+              <li><strong>City:</strong>Orlando</li>
+			  <li><strong>State:</strong>Florida</li>
+			  <li><strong>Zip Code:</strong>32826</li>
+			  <li><strong>Country:</strong>USA</li>
+			  <li><strong>Telephone:</strong>(407) 505-4525</li>
+			  <li><strong>Telephone:</strong>(888) 245-7515</li>
+              <li><strong>Fax:</strong>(407) 505-4525</li>
+              <li><strong>Email:</strong>Services@DIFL.us</li>
+            </ul>
+            <!-- /.contacts -->
+                        Please contact us to learn more about DI and its team. Allow us to answer any questions you may have regarding our services or ideas you may want to share. Please feel free to provide feedback and comments using the optional form on this page.
+          <br><br>
+		  <div id="map-canvas"></div>
+		   </aside>
+          <!-- content -->
+          <section id="content">
+            <article>
+            	<h2>Contact <span>Form</span></h2>
+				
+						<form method="post" action="http://us.1.p11.webhosting.yahoo.com/forms?login=belsonmartin">
+						<font face="arial, helvetica">
+						<p>
+						<b>Your Name:</b><br>
+						<input type="text" name="Name" size="27">
+						<p>
+
+						<b>Your Email Address:</b><br>
+						<input type="text" name="URL" size="27">
+						<p>
+
+					
+						<b>Please add any comments you have below:</b>
+						</font><br>
+						<textarea cols="40" rows="10" name="Comments"></textarea>
+
+						<p><br>
+						<input type="submit" value="Send">
+						<input type="reset" value="Clear the form">
+						<!--<input type="hidden" name="next_url" value="http://difl.us/index.html" />-->
+
+						<!-- Option 1 
+						<input type="hidden" name="subject" value="Survey Results">
+
+						<!-- Option 2 
+						<input type="hidden" name="required_fields" value="Name,URL">
+
+						<!-- Option 3
+						<input type="hidden" name="next_url" value="http://difl.us/index.html">
+						-->
+
+						</form>
+            </article> 
+          </section>
+        </div>
+      </div>
+    </div>
+	<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+  </div>
+  <!-- footer -->
+  <footer>
+      <div class="container">
+        <div class="wrapper">
+          <div class="fleft">&copy; 2014 - Diversified Industries C &amp; IS Inc <br> Telephone: (407) 505-4525 or (888) 245-7515 <br> <a href= "contacts.html" style="text-decoration: underline; color: #ffffff" >Contact Us</a></div>
+          <div class="fright">
+		  
+		  <a href="https://twitter.com/DiversifiedInd" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @DiversifiedInd</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			<a href="ES/contacts.html" target="_blank"><img src="ES/images/spanlang.jpg" border="0" style="border:none;max-width:100%;" alt="En Español" /></a>
+		   </div>
+		  
+		  <div class="fright"><div class="fb-like" data-href="https://www.facebook.com/DiversifiedIndustries" data-send="true" data-width="450" data-show-faces="true" data-font="verdana" data-colorscheme="dark"></div></div>
+          <br>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript"> Cufon.now(); </script>
+  </body>
+</html>
