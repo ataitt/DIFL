@@ -541,5 +541,14 @@ footer {
 			#contacts-form div:last-child {
 				padding-left:110px;
 			}
-
 /*==========================================*/
+ ul.b
+  {
+list-style-type:square;
+padding-left:50px;
+margin:0px;
+font-size: 1em;
+}
+div.padded{
+padding-right: 18%;
+}
