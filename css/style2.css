@@ -129,7 +129,7 @@ ul.crossfade {
 .aligncenter { text-align:center;}
 
 .wrapper { 
-	width:100%;
+	width:95%;
 	min-width:1200px;
 	margin: 0 auto 0 auto;
 	overflow:hidden;
@@ -270,10 +270,10 @@ h4 {
 
 .list1 {
 	margin-left:12px;
-	padding-bottom:18px;
+	padding-bottom:5px;
 }
 .list1 li {
-	background:url(../images/arrow1.gif) no-repeat 0 6px;
+	background:url("images/arrow1.gif") no-repeat 0 6px;
 	padding:0 0 0 12px;
 }
 
