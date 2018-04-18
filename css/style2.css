@@ -382,7 +382,7 @@ position:absolute;
 /*===== content =====*/
 #content {
 }
-	#content img, aside img {
+/*	#content img, aside img {
 		border:3px solid #ebebeb;
 		border-radius:4px;
 		-moz-border-radius:4px;
@@ -390,7 +390,13 @@ position:absolute;
 	}
 	#content img:hover {
 		border-color:#bbb;
-	}
+	} */
+	
+	#content p {
+    text-align: justify;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
 	
 
 /*--- news list styles ---*/
