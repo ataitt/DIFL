@@ -53,12 +53,15 @@ width:100%;
 #content2 {
 
 }
+
+/* -NOT USED
 ul.crossfade {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 	position: relative;
 }
+*/
 
 #fade-example-2 li {
 	position: absolute;
@@ -551,11 +554,26 @@ footer {
 /*==========================================*/
  ul.b
   {
-list-style-type:square;
+list-style-type: square;
 padding-left:50px;
 margin:0px;
 font-size: 1em;
 }
+
+#mainBoxBullets ul{
+	list-style-type: square;
+	padding-left:50px;
+	margin:0px;
+	font-size: 1em;	
+}
+
+#mainBoxBullets2 ul{
+	list-style-type: square;
+	padding-left:50px;
+	margin:0px;
+	font-size: 1em;	
+}
 div.padded{
-padding-right: 18%;
+padding-right: 10%;
+padding-left: 10%;
 }
