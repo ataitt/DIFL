@@ -138,10 +138,11 @@ ul.crossfade {
 	overflow:hidden;
 }
 
-.wrapper ul{
+.wrapper ul {
 list-style-type: square;
+display: list-item;
 padding-left:50px;
-margin:0px;
+margin-left: 0;
 font-size: 1em;
 }
 
@@ -559,28 +560,14 @@ footer {
 				padding-left:110px;
 			}
 /*==========================================*/
- ul.b
-  {
-list-style-type: square;
-padding-left:50px;
-margin:0px;
-font-size: 1em;
-}
-
-#mainBoxBullets ul{
+/*	.b ul {
 	list-style-type: square;
 	padding-left:50px;
 	margin:0px;
-	font-size: 1em;	
-}
+	font-size: 1em;
+} */
 
-#mainBoxBullets2 ul{
-	list-style-type: square;
-	padding-left:50px;
-	margin:0px;
-	font-size: 1em;	
-}
-div.padded{
-padding-right: 10%;
-padding-left: 10%;
-}
+	.padded div {
+	padding-right: 10%;
+	padding-left: 10%;
+	}
