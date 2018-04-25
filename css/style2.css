@@ -141,8 +141,7 @@ ul.crossfade {
 .wrapper ul {
 list-style-type: square;
 display: list-item;
-padding-left:50px;
-margin-left: 0;
+padding-left:10%;
 font-size: 1em;
 }
 
@@ -181,8 +180,8 @@ figure { margin-bottom:18px;}
 }
 
 p {
-margin-left:10px;
-margin-right:10px;
+margin-left:5%;
+margin-right:5%;
 margin-bottom:18px;
 	font-size:100%;
 	text-align:justify;
@@ -263,6 +262,13 @@ h4 {
     width:1366px;
 	min-width:1200px;
 	margin: 0 auto;
+}
+
+.main-box ul {
+list-style-type: square;
+display: list-item;
+padding-left:13%;
+font-size: 1em;
 }
 
 
